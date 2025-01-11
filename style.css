@@ -233,3 +233,24 @@ video{
 .card:hover{
     transform: rotate3d(-1,1,0,20deg);
 }
+#green-div{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left bottom,rgba(0, 255, 64, 0.653),#ACE022);
+}
+#green-div h4{
+    width: 40%;
+    line-height: 50px;
+    color:#000;
+    font-size: 27px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+#green-div img{
+    height: 100;
+    object-fit:cover;
+    width:14%;
+}
